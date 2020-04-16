@@ -2,7 +2,6 @@ import { h, Component, createContext } from 'preact';
 import { Router } from 'preact-router';
 import { Link } from 'preact-router/match';
 
-// import 'tailwindcss/dist/tailwind.min.css';
 import './assets/styles/global.css';
 
 // Routes
@@ -76,7 +75,7 @@ export default class App extends Component {
 					</nav>
 					<h1 class="font-sans text-4xl md:text-5xl lg:text-6xl pt-10 text-gray-800 text-center">
 						<span class="block sm:inline-block" role="img" aria-label="biker">
-							🚴&nbsp;
+							🚴
 						</span>
 						{`${process.env.PREACT_APP_CITY} a Domicilio`}
 					</h1>

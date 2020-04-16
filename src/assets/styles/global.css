@@ -2,18 +2,23 @@
 @tailwind utilities;
 
 :root {
-	--bg: #ffffff;
-	--gray-200: #f1f3f7;
-	--gray-500: #bec8d4;
-	--gray-700: #4a5568;
-	--orange-300: #fbd38d;
-	--green-300: #9ae6b4;
-	--red-300: #e69a9a;
-	--yellow-300: #faf089;
-	--yellow-700: #b7791f;
-	--blue-300: #90cdf4;
-	--blue-500: #4299e1;
-	--blue-700: #2b6cb0;
+	--bg: #fff;
+    --gray-200: #f1f3f7;
+    --gray-500: #bec8d4;
+    --gray-700: #4a5568;
+    --orange-300: #fbd38d;
+    --orange-500: #ed8936;
+    --orange-700: #c05621;
+    --green-300: #9ae6b4;
+    --red-300: #e69a9a;
+    --red-500: #f56565;
+    --red-700: #c53030;
+    --red-800: #9b2c2c;
+    --yellow-300: #faf089;
+    --yellow-700: #b7791f;
+    --blue-300: #90cdf4;
+    --blue-500: #4299e1;
+    --blue-700: #2b6cb0;
 }
 
 body {
